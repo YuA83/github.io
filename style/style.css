@@ -16,6 +16,11 @@
 }
 body {
     max-width: 100%;
+    overflow-x: hidden;
+    -ms-overflow-style: none; 
+} 
+::-webkit-scrollbar { 
+    display: none; 
 }
 ul, li {
     list-style: none;
